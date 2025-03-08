@@ -1,1 +1,16 @@
-https://github.com/GyverLibs/GyverHub-example
+ "name": "waterdance by alexgyver",
+  "about": "water",
+  "version": "1.0",
+  "notes": "-",
+  "builds": [
+    {
+      "chipFamily": "ESP32",
+      "parts": [
+        {
+          "path": "https://github.com/AlexGyver/WaterDance/blob/main/firmware/WaterDance/WaterDance.ino",
+          "offset": 0
+        }
+      ]
+    }
+  ]
+}
